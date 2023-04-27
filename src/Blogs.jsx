@@ -14,7 +14,7 @@ const Blogs = () => {
       {blog.map((blog, index) => (
         <div className="flex flex-col gap-6 border-b-4 border-b-red py-2">
           <img
-            src={`../public/images/${blog.src}`}
+            src={`../images/${blog.src}`}
             alt=""
             srcset=""
             className="w-[280px] mobile:w-[350px] h-52"
