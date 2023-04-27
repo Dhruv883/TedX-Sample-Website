@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className="pr-24 m-0 flex items-center justify-between shadow-shadow">
       <div>
-        <img src="../public/images/TEDX.svg" alt="" className="w-32" />
+        <img src="../images/TEDX.svg" alt="" className="w-32" />
       </div>
       <div className="hidden md:flex items-center gap-12 text-xl font-medium ">
         {Menu.map((menu, index) => (
