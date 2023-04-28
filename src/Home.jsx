@@ -4,20 +4,20 @@ const Home = () => {
   return (
     <>
       <div className="p-5 flex items-center justify-evenly">
-        <div>
+        <div className="hidden lg:flex">
           <img
             src="../images/home.jpg"
             alt=""
             srcset=""
-            className="w-[55vw] rounded-md"
+            className="lg:w-[55vw] rounded-md"
           />
         </div>
-        <div className="w-[40vw] h-[70vh] px-2 py-10 flex flex-col text-center items-center gap-10 justify-evenly">
-          <div className="text-4xl text-red font-semibold">
+        <div className="lg:w-[40vw] md:w-[35vw] lg:h-[70vh] px-2 py-10 flex flex-col text-center items-center gap-10 justify-evenly">
+          <div className="text-2xl lg:text-4xl md:text-3xl  text-red font-semibold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
             totam.
           </div>
-          <div className="text-xl">
+          <div className="text-xl lg:text-xl md:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi
             aliquid, quis a excepturi quisquam fugiat asperiores omnis hic
             praesentium doloremque esse. Dolore, quibusdam quam.
