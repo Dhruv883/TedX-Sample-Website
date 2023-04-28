@@ -43,10 +43,19 @@ const Navbar = () => {
             </button>
           </div>
           <div className="flex flex-col items-center pt-12 gap-5">
-            <span className="cursor-pointer hover:text-red">Home</span>
-            <span className="cursor-pointer hover:text-red">About Us</span>
-            <span className="cursor-pointer hover:text-red">Events</span>
-            <span className="cursor-pointer hover:text-red">Blogs</span>
+            {Menu.map((menu, index) => (
+              <NavLink
+                key={index}
+                to={menu.to}
+                className={({ isActive }) =>
+                  isActive ? "text-red" : "text-black"
+                }
+              >
+                <span className="cursor-pointer hover:text-red">
+                  {menu.title}
+                </span>
+              </NavLink>
+            ))}
           </div>
         </div>
       )}

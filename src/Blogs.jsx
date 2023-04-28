@@ -4,9 +4,9 @@ const Blogs = () => {
   const blog = [
     { src: "business.jpg", topic: "Finance" },
     { src: "science.jpg", topic: "Science" },
-    { src: "art.jpg", topic: "Arts + Design" },
     { src: "technology.jpg", topic: "Technology" },
-    { src: "building.jpg", topic: "Cities" },
+    { src: "art.jpg", topic: "Arts + Design" },
+    { src: "building.jpg", topic: "" },
   ];
 
   return (
@@ -34,7 +34,7 @@ const Blogs = () => {
             <div className="flex items-center cursor-pointer gap-3">
               <span className="text-red text-2xl ">More</span>
               <span>
-                <img src="../public/images/right-arrow.svg" alt="" srcset="" />
+                <img src="../images/right-arrow.svg" alt="" srcset="" />
               </span>
             </div>
           </div>
