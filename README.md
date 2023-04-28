@@ -1,2 +1,3 @@
-# TedX-Sample-Website
-Sample TedX website created as part of interview task
+# TEDx-Sample-Website
+
+Sample TEDx website created as part of interview task
