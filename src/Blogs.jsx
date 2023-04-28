@@ -2,9 +2,9 @@ import React from "react";
 
 const Blogs = () => {
   const blog = [
-    { src: "business.jpg", topic: "Finance" },
     { src: "science.jpg", topic: "Science" },
     { src: "technology.jpg", topic: "Technology" },
+    { src: "business.jpg", topic: "Finance" },
     { src: "art.jpg", topic: "Arts + Design" },
     { src: "building.jpg", topic: "" },
   ];
