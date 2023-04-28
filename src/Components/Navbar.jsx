@@ -9,7 +9,6 @@ const Navbar = () => {
 
   const Menu = [
     { title: "Home", to: "" },
-    { title: "About", to: "about" },
     { title: "Events", to: "events" },
     { title: "Blogs", to: "blogs" },
   ];
@@ -32,14 +31,14 @@ const Navbar = () => {
       </div>
       <div className="md:hidden absolute right-3">
         <button onClick={toggleMenu}>
-          <img src="../public/images/Hamburger.svg" alt="" srcset="" />
+          <img src="../images/Hamburger.svg" alt="" srcset="" />
         </button>
       </div>
       {showMenu && (
         <div className="md:hidden absolute top-0 left-0 w-full h-full bg-white text-2xl">
           <div className="md:hidden absolute right-3">
             <button onClick={toggleMenu}>
-              <img src="../public/images/Hamburger.svg" alt="" srcset="" />
+              <img src="../images/Hamburger.svg" alt="" srcset="" />
             </button>
           </div>
           <div className="flex flex-col items-center pt-12 gap-5">

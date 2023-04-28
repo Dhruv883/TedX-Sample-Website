@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Home = () => {
-  return <div></div>;
+  return <div className="p-5"></div>;
 };
 
 export default Home;
